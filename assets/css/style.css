@@ -1,0 +1,38 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-image {
+    background-image: url("../image/auth_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: unset;
+}
+
+
+#main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+#main .card {
+    min-width: 500px;
+}
+
+.toast {
+    position: absolute;
+    background-color: rebeccapurple;
+    right: 10px;
+    top: 10px;
+
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+    #main .card {
+        min-width: auto;
+    }
+}
